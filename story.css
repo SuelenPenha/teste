@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0%;
+    background-color: yellow;
+}
+
+.body {
+    background-color: yellow;
+    position: relative;
+    bottom: 50px;
+}
+
+.label {
+    font-family: sans-serif;
+    color: black;
+    transform: scale(1.5);
+    position: relative;
+}
+
+/* Quadrado branco */
+
+.container_2 {
+    position: relative;
+    left: 580px;
+    top: 140px;
+    background: beige;
+    border-radius: 10px;
+    padding: 10px 60px;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 2);
+}
+
+.container_2 button{ 
+    position: relative;
+    top: 100px;
+    right: 125px;
+}
+
+/* 1° primeira caixa de digitação */
+
+textarea{
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    transform: scale(1.5);
+    margin-bottom: 70px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+/* butões .encrypt-btn e .copyToClipBoard */
+
+.encrypt-btn{
+    transform: translate(50px, 128px) scale(2.4);
+}
+
+.copyToClipBoard{
+    transform: translate(210px,110px) scale(2.4);
+}
+
+
+.encrypt-btn{
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 4px 12px;  
+
+}
+
+.copyToClipBoard{
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 4px 12px;  
+    left: 0;
+
+
+}
+
+.shiftInput{
+    transform: scale(2);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.container_1 {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 60px;
+    width: 400px;
+    height: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 2);
+    transform: translate(580px, 100px);
+    font-family: "fruktur", cursive;
+    cursor: pointer;
+
+}
+
+.container_1,.container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* .caesar{
+    width: 111px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: 62px;
+} */
+
+
